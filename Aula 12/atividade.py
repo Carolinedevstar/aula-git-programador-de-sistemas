@@ -1,19 +1,20 @@
-# lista = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3,]
-# print("Tamanho da lista:", len(lista))
-# print("Soma dos elementos:", sum(lista))
-# print("Menor elemento:", min(lista))
-# print("maior elemento:", max(lista))
-# print("Lista ordenada:", sorted(lista))
+# # criando a lista
+numeros = [10, 4, 6, 24, 56, 6, 87]
 
-# lista_palavras = ["banana", "abacaxi", "maçã", "melão", "uva"]
-# print(len(lista_palavras))
+# # exibindo o tamanho da lista
+# tamanho = len(numeros)
+# print(f"O tamanho da lista é: {tamanho} elementos")
 
-# compras = []
+# # exibindo elementos específicos
+# primeiro_elemento = numeros[0]
+# terceiro_elemento = numeros[2]
+# ultimo_elemento = numeros[-1]
 
-# for i in range(3):
-#     compras.append(input("Digite um item de compra:"))
 
-# # print(compras)
+# print(f"O primeiro elemento(indice 0) é: {primeiro_elemento} ")
+# print(f"O terceiro elemento(indice 2) é: {terceiro_elemento} ")
+# print(f"O último elemento(indice -1) é:{ultimo_elemento}")
 
-# for i in range(len(compras)):
-#     print(compras[i])
+
+for numero in sorted(numeros, reverse=True):
+    print(numero)
