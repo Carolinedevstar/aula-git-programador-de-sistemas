@@ -1,10 +1,19 @@
-lista = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3,]
+# lista = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3,]
+# print("Tamanho da lista:", len(lista))
+# print("Soma dos elementos:", sum(lista))
+# print("Menor elemento:", min(lista))
+# print("maior elemento:", max(lista))
+# print("Lista ordenada:", sorted(lista))
 
-print("Tamanho da lista:", len(lista))
-print("Soma dos elementos:", sum(lista))
-print("Menor elemento:", min(lista))
-print("maior elemento:", max(lista))
-print("Lista ordenada:", sorted(lista))
+# lista_palavras = ["banana", "abacaxi", "maçã", "melão", "uva"]
+# print(len(lista_palavras))
 
-lista_palavras = ["banana", "abacaxi", "maçã", "melão", "uva"]
-print(len(lista_palavras))
+# compras = []
+
+# for i in range(3):
+#     compras.append(input("Digite um item de compra:"))
+
+# # print(compras)
+
+# for i in range(len(compras)):
+#     print(compras[i])
